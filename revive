@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>Locator</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script>
+      const CONFIGURATION = {
+        "locations": [
+          {"title":"Revive Soothe® | Southlake - Lymphatic","address1":"2750 E Southlake Blvd","address2":"Southlake, TX, United States","coords":{"lat":32.9394169,"lng":-97.1087081},"placeId":"ChIJ4YxAGyfVTYYRgYsyLYpzP1Y"},
+          {"title":"Revive Soothe® | McKinney - Lymphatic","address1":"3900 South Stonebridge Dr","address2":"McKinney, TX, United States","coords":{"lat":33.169932,"lng":-96.732255},"placeId":"ChIJVcZrm0MVTIYRDmKMx2QE1ps","actions":[{"label":"Book appointment","defaultUrl":"https://www.vagaro.com//Users/BusinessWidget.aspx?enc\u003dMMLjhIwJMcwFQhXLL7ifVKAMTQAkAMYlflqjGN/CO2gYyeX28qjfQQpYeVrPbRRglhw35K64ybifN+XWN14ey6osVSXlmwNUPqUX316WLVGQL6OYHZw67spJe+Z2ZeOJnqFsJ77f5l8mWadNBHfHyYjQjXqHEaMoPzsQyv1sw0xKOLzteQkk6XJSGPmuSu2NXocFdh1daQXiGpP6VYarGFZVnjBETVN340m+nP91bLskWc2MTruqoMZ5b3ZOuNs4qCDQtiy133O8V7lOvlHDKA1rz/WlhXMOIQkoXkxD1FgJJtsUDOKq39BhLKP2XYhzR+UoFiHIxdBdIFN/ISujgg60cmGxt0dXLeqrz7b4LNvohyZVGKlN+/aqkKp8y7bAStSyFsJ+xii+teXIVBV0igVK7b3ZyzNoSQ5+E2jtLiTnpJ3LTVe+DoSDsg5qsHQT+E9iOGMBL/Za1xWJntFr4w%3D%3D"}]}
+        ],
+        "mapOptions": {"center":{"lat":38.0,"lng":-100.0},"fullscreenControl":true,"mapTypeControl":false,"streetViewControl":false,"zoom":4,"zoomControl":true,"maxZoom":17,"mapId":""},
+        "mapsApiKey": "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg",
+        "capabilities": {"input":true,"autocomplete":true,"directions":false,"distanceMatrix":true,"details":false,"actions":true}
+      };
+
+    </script>
+  </head>
+  <body>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/@googlemaps/extended-component-library/0.6.11/index.min.js"></script>
+
+    <!-- Uses components from the Extended Component Library; see
+         https://github.com/googlemaps/extended-component-library for more information
+         on these HTML tags and how to configure them. -->
+    <gmpx-api-loader key="AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg" solution-channel="GMP_QB_locatorplus_v11_cABDF"></gmpx-api-loader>
+    <gmpx-store-locator map-id="DEMO_MAP_ID"></gmpx-store-locator>
+  </body>
+</html>
